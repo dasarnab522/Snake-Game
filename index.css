@@ -1,0 +1,98 @@
+/* @import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+ /* background: url("https://i.pinimg.com/736x/de/bd/69/debd697762435e2025388c7ceb71b590.jpg");  */
+  /* background: url("snake.jpg"); */
+  background: url("peakpx.jpg");
+  background-color: black;
+  min-height: 100vh;
+  background-size: 30vw 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrx {
+  position: absolute;
+  font-size: 39px;
+  font-weight: bold;
+  /* font-family: "New Tegomin", serif; */
+  font-family: 'Rubik Microbe', cursive;
+  color:lime
+}
+#scoreBox {
+  right: 110px;
+  top: 120px;
+}
+#speedShow {
+  right: 100px;
+  top: 170px; 
+}
+.ofpx {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: 235px;
+  right: 80px;
+  color: black;
+  background-color: yellowgreen;
+}
+#tenx {
+  right: 140px;
+}
+#fivtx {
+  right: 220px;
+}
+
+#hiscoreBox {
+  right: 75px;
+  top: 350px;
+}
+.tzpx {
+  font-size: 20px;
+}
+#five {
+  right: 160px;
+  top: 400px;
+}
+#ten {
+  right: 155px;
+  top: 430px;
+}
+#fivt {
+  right: 155px;
+  top: 460px;
+}
+
+
+#board {
+  background: linear-gradient(rgb(128, 248, 128), rgb(238, 238, 138),rgb(233, 126, 126));
+  width: 90vmin;
+  height: 92vmin;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+}
+
+.head {
+  background: linear-gradient(rgb(98, 107, 233), rgb(228, 228, 129));
+  border: 2px solid rgb(175, 15, 175);
+  transform: scale(1.02);
+  border-radius: 9px;
+}
+.snake {
+  background:linear-gradient(red,yellow);
+  border: 0.25vmin solid white;
+  border-radius: 12px;
+}
+
+.food {
+  background: url("food.jpg");
+  background-size: 5vh;
+  border-radius: 20px;
+}
